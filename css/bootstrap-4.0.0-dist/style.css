@@ -1,0 +1,108 @@
+a #logo-text, a > image {
+
+    float: left;
+}
+
+body{
+    background-color: teal;
+}
+
+#header_col{
+    background-color:rgb(201, 243, 116);
+}
+
+.navbar-nav .nav-item > .nav-link, .navbar-nav .nav-item.active > .nav-link {
+    text-align: center;
+    font-size: 1.2em;
+    color: saddlebrown;
+}
+.navbar-nav .nav-item > .nav-link:hover{
+    background-color: seashell;
+}
+
+#phone {
+    text-align: right;
+    font-size: 1.8em;
+    color: saddlebrown;
+
+}
+
+#delever {
+    text-align: right;
+    font-size: 0.80em;
+    color: saddlebrown;
+}
+
+#logo-text 
+{
+    margin: 8px;
+}
+#logo-text > h1 {
+    color: rgb(1, 46, 46);
+    text-transform:uppercase;
+    text-shadow: 0px 2px 2px springgreen;
+}
+
+.jumbotron > img {
+height: 100%;
+width: 100%;
+}
+
+.jumbotron {
+    padding: 0px;
+    margin-top: 16px;
+    border: 2px solid blanchedalmond;
+    box-shadow: 0 0 10px rgb(1, 46, 46);
+    }
+    
+    .home-tiles{ 
+        display: block;
+        height:250px ;
+        border: 1px solid black;
+        overflow: hidden;
+        border-radius: 10px;
+
+    }
+    .home-tiles:hover {
+        box-shadow: black;
+
+    }
+
+
+:horizontal
+
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #logo-text > h1 {
+       font-size: 1em;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #logo-text > h1 {
+        font-size: 2em;
+     }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { }
+/* 
+// Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .navbar-nav{
+    position: relative;
+    top:-31px;
+} }
+/* 
+// Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .navbar-nav{
+    position: relative;
+    top:-31px;
+} }
+
